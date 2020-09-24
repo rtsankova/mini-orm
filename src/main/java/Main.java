@@ -9,7 +9,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) throws SQLException, IllegalAccessException, IOException {
 
-        Connector.createConnection("root", "Rosi.5200", "orm");
+        Connector.createConnection("root", "1234", "orm");
 
         EntityManager<User>entityManager = new EntityManager<>(Connector.getConnection());
 
